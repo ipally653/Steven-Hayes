@@ -1,0 +1,51 @@
+.nav
+{
+	background-color: #000000;
+	border-bottom: 5px solid #696969;
+}
+.container
+{
+	font-family: arial;
+}
+.logo
+{
+	color: #c0c0c0;
+}
+li
+{
+	color: #c0c0c0;
+}
+li:not(:first-child):before
+{
+	content: " | ";
+}
+header
+{
+	background-image: url("../img/header_background.jpg");
+	height: 1400px;
+	width: 100%;
+	position: center center;
+
+}
+.header-title
+{
+	color:#c0c0c0;
+}
+.header-subtitle
+{
+	color: #c0c0c0;
+}
+.about
+{
+	background-color: #c0c0c0;
+}
+.current-projects
+{
+	color: #4f4f4f;
+}
+.past-projects
+{
+	background-color: #000000;
+	color: #ffffff;
+	overflow: auto;
+}
