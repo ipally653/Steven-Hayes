@@ -1,6 +1,7 @@
 body
 {
 	margin: 0;
+	min-width: 500px;
 }
 .container
 {
@@ -60,6 +61,8 @@ header
 	margin-left: 10%;
 	width: 60%;
 	float: left;
+    padding-right: 5%;
+
 }
 .about-image
 {
@@ -99,4 +102,35 @@ h2
 .project-img
 {
 	width: 50%;
+}
+.project-img
+{
+	transform: scale(.8);
+	-webkit-transform: scale(.8);
+	-moz-transform: scale(.8);
+	-o-transform: scale(.8);
+}
+.project-img:hover
+{
+	transition: .3s all ease-in-out 0s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+}
+.contact
+{
+	margin-top: 0;
+	overflow: auto;
+	padding-right: 2%;
+}
+.contact-info
+{
+	float: right;
+}
+.contact-info p
+{
+	float: right;
+	font-size: 15px;
+	margin:5px 0 5px 0;
 }

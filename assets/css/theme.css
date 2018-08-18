@@ -49,3 +49,11 @@ header
 	color: #ffffff;
 	overflow: auto;
 }
+.contact
+{
+	background-color: #c0c0c0;
+}
+.contact li
+{
+	color: #000000;
+}
