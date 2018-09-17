@@ -57,3 +57,12 @@ header
 {
 	color: #000000;
 }
+a
+{
+	text-decoration: none;
+	font: #c0c0c0;
+}
+a:visited
+{
+	color: #c0c0c0;
+}
