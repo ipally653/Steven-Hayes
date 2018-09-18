@@ -90,6 +90,10 @@ h2
 {
 	margin-left: 10%;
 }
+.current-image
+{
+	width: 10%;
+}
 .past-projects
 {
 	padding:5% 10% 5% 10%;
@@ -146,6 +150,11 @@ h2
 	margin-top: 50px;
 }
 #past-projects-anchor
+{
+	padding-top: 50px;
+	margin-top: 50px;
+}
+#contact-anchor
 {
 	padding-top: 50px;
 	margin-top: 50px;
